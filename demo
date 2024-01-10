@@ -1,0 +1,5 @@
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=sonarqube-aws-pipeline_key \
+  -Dsonar.projectName='sonarqube-aws-pipeline' \
+  -Dsonar.host.url=http://13.234.105.145:9000 \
+  -Dsonar.token=sqp_9638a6fff90ed1581160ff77a7cab673f79fa980
